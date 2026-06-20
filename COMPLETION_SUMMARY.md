@@ -6,6 +6,13 @@
 
 **Status:** ✅ **COMPLETE AND TESTED**
 
+### Graph Analysis
+The knowledge graph reveals:
+- **106 nodes** representing code, documentation, and concepts
+- **134 edges** capturing relationships, dependencies, and design rationale
+- **3 major hyperedges**: Shared Module Foundation, GPT Paradigm, Masked LM Paradigm
+- **God nodes** (highest connectivity): MultiHeadSelfAttention (18 edges), TinyGPT (10), TinyMaskedLM (10)
+
 ---
 
 ## What Was Built
@@ -260,12 +267,20 @@ pytest tests/test_suite.py -v
 
 ## Knowledge Graph
 
-The codebase is documented in a knowledge graph:
-- **111 nodes** — code entities and concepts
-- **116 edges** — relationships between components
-- **32 communities** — topically organized
+The codebase is documented in a complete knowledge graph (built with graphify):
+- **106 nodes** — code entities, implementations, and concepts
+- **134 edges** — EXTRACTED (75%), INFERRED (25%), with confidence scores
+- **12 communities** — topically organized by architecture & paradigm
+- **3 hyperedges** — Shared Foundation, GPT Paradigm, Masked LM Paradigm
 
-View at: `graphify-out/graph.html`
+### God Nodes (Highest Connectivity)
+1. **MultiHeadSelfAttention** (18 edges) — the critical shared foundation
+2. **TinyGPT** (10 edges) — autoregressive paradigm
+3. **TinyMaskedLM** (10 edges) — diffusion paradigm
+4. **scaled_dot_product_attention()** (8 edges) — core mechanism
+5. **TransformerBlock** (6 edges) — reusable building block
+
+**View at:** `graphify-out/graph.html` (interactive) or `GRAPH_REPORT.md` (audit report)
 
 ---
 

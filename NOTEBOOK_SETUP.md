@@ -1,5 +1,7 @@
 # Running Notebooks: Setup Guide
 
+All notebooks have automatic path setup in the first cell, so they work from any directory. The notebooks demonstrate the thesis: identical shared modules (MultiHeadSelfAttention, TokenPositionalEmbedding) configured differently create two distinct generation paradigms.
+
 ## Quick Start
 
 ### Option 1: Run from Project Root (Recommended)

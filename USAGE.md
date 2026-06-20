@@ -1,6 +1,8 @@
 # Usage Guide: Shared Modules in GPT & Masked LM
 
-This guide shows how to import and use the shared modules in both models.
+This guide shows how to import and use the shared modules in both models. The key insight: both models use **identical components**—only the `causal` flag differs in attention, and the training objective differs.
+
+**From the knowledge graph:** The shared modules (MultiHeadSelfAttention: 18 edges, TokenPositionalEmbedding: 6 edges) are the highest-connectivity nodes in the codebase, proving they're the architectural foundation.
 
 ---
 

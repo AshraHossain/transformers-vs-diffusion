@@ -213,6 +213,25 @@ The **Transformers vs Diffusion** project is fully functional and demonstrates i
 
 ---
 
+## Knowledge Graph Analysis (2026-06-19)
+
+A comprehensive knowledge graph was built using graphify:
+
+**Graph Statistics:**
+- 106 nodes (code, docs, concepts)
+- 134 edges (75% EXTRACTED, 25% INFERRED)
+- 12 communities (attention, generation, testing, architecture)
+- 3 hyperedges (Shared Foundation, GPT Paradigm, Masked LM Paradigm)
+
+**God Nodes (Highest Connectivity):**
+1. MultiHeadSelfAttention (18 edges) — the critical shared component
+2. TinyGPT (10 edges) — autoregressive paradigm
+3. TinyMaskedLM (10 edges) — diffusion paradigm
+
+**Key Finding:** The graph confirms the thesis: both models share identical attention and embedding modules, differing only in the `causal` flag configuration.
+
+---
+
 ## Next Steps (Optional)
 
 The project is complete, but could be extended with:

@@ -12,6 +12,21 @@ Both autoregressive (GPT) and diffusion (masked-LM) generation paradigms rest on
 
 This repository demonstrates this thesis with minimal, from-scratch implementations in PyTorch.
 
+### Graph Analysis: Core Components by Connectivity
+
+The knowledge graph reveals the relative importance of each component:
+
+| Component | Edges | Role |
+|-----------|-------|------|
+| **MultiHeadSelfAttention** | 18 | Lynchpin of shared foundation—used by both models |
+| **TinyGPT** | 10 | Autoregressive paradigm implementation |
+| **TinyMaskedLM** | 10 | Diffusion paradigm implementation |
+| **scaled_dot_product_attention()** | 8 | Core attention mechanism (NumPy reference) |
+| **TransformerBlock** | 6 | Reusable building block |
+| **TokenPositionalEmbedding** | 6 | Shared embedding layer |
+
+The causal flag in `MultiHeadSelfAttention` is the critical pivot point: toggling it from `True` to `False` switches from GPT behavior to masked-LM behavior.
+
 ---
 
 ## Shared Modules

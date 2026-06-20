@@ -27,3 +27,19 @@ Both tiny models train on a toy corpus and generate text; the comparison noteboo
 
 ## Testing
 20 tests in `tests/` cover attention output shapes, causal vs bidirectional masking, the tokenizer round-trip, and sampler step counts. Run with `pytest`.
+
+## Knowledge Graph
+Run `graphify` to build a knowledge graph of the codebase:
+```bash
+graphify
+```
+This produces:
+- `graphify-out/graph.html` — Interactive visualization of 106 nodes and 134 edges
+- `graphify-out/GRAPH_REPORT.md` — Audit trail with god nodes, communities, and surprises
+
+**Key findings from graph:**
+- **MultiHeadSelfAttention**: 18 edges (highest connectivity—the shared foundation)
+- **TinyGPT**: 10 edges (autoregressive paradigm)
+- **TinyMaskedLM**: 10 edges (diffusion paradigm)
+- **12 communities** organized by architecture and purpose
+- **75% EXTRACTED edges** (explicit in code), **25% INFERRED** (derived relationships)

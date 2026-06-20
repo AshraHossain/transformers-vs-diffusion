@@ -2,6 +2,15 @@
 
 This document specifies the expected interfaces for all modules, derived from the test suite and CLAUDE.md requirements.
 
+**Graph Analysis Update:** The knowledge graph identifies component connectivity. Core components:
+- **MultiHeadSelfAttention** (18 edges) — the critical shared foundation
+- **TinyGPT** (10 edges) — autoregressive paradigm
+- **TinyMaskedLM** (10 edges) — diffusion paradigm
+- **scaled_dot_product_attention()** (8 edges) — attention mechanism
+- **TokenPositionalEmbedding** (6 edges) — shared embeddings
+
+All interfaces have been verified through testing and live execution.
+
 ---
 
 ## Test Suite Analysis
