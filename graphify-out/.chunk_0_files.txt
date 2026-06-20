@@ -1,0 +1,15 @@
+/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/.claude/settings.local.json
+/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/src/__init__.py
+/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/src/common/__init__.py
+/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/src/common/attention.py
+/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/src/common/embeddings.py
+/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/src/common/sdpa_reference.py
+/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/src/common/tokenizer.py
+/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/src/diffusion/__init__.py
+/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/src/diffusion/masked_lm.py
+/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/src/transformer/__init__.py
+/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/src/transformer/gpt.py
+/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/tests/test_suite.py
+/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/CLAUDE.md
+/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/README.md
+/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/requirements.txt

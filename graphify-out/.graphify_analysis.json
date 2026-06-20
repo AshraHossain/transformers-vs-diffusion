@@ -1,0 +1,355 @@
+{
+  "communities": {
+    "0": [
+      "sdpa_reference_multi_head_self_attention",
+      "sdpa_reference_rationale_1",
+      "sdpa_reference_rationale_21",
+      "sdpa_reference_rationale_34",
+      "sdpa_reference_scaled_dot_product_attention",
+      "sdpa_reference_softmax",
+      "test_suite_rationale_1",
+      "test_suite_test_attention_output_shape_matches_input",
+      "test_suite_test_attention_weights_are_row_stochastic",
+      "test_suite_test_bidirectional_attends_both_directions",
+      "test_suite_test_both_models_share_attention_module",
+      "test_suite_test_causal_mask_blocks_future_positions",
+      "test_suite_test_chars_are_sorted",
+      "test_suite_test_decode_full_vocab",
+      "test_suite_test_diffusion_generate_runs_n_steps",
+      "test_suite_test_diffusion_output_has_no_mask_tokens",
+      "test_suite_test_empty_then_known_char_encode",
+      "test_suite_test_encode_decode_roundtrip",
+      "test_suite_test_encode_returns_ints",
+      "test_suite_test_gpt_generate_extends_sequence",
+      "test_suite_test_gpt_logits_shape",
+      "test_suite_test_gpt_overfits_tiny_string",
+      "test_suite_test_head_dim_divides_d_model",
+      "test_suite_test_masked_lm_logits_shape",
+      "test_suite_test_multihead_output_shape",
+      "test_suite_test_softmax_rows_sum_to_one",
+      "test_suite_test_stoi_itos_consistent",
+      "test_suite_test_vocab_size_counts_unique_chars",
+      "test_suite_test_vocab_size_single_char",
+      "users_ashraf_macbookair_repos_projects_build9_ai_projects_08_transformers_vs_diffusion_src_common_sdpa_reference_py",
+      "users_ashraf_macbookair_repos_projects_build9_ai_projects_08_transformers_vs_diffusion_tests_test_suite_py"
+    ],
+    "1": [
+      "attention_multiheadselfattention",
+      "attention_multiheadselfattention_forward",
+      "attention_multiheadselfattention_init",
+      "attention_rationale_1",
+      "attention_rationale_31",
+      "attention_rationale_78",
+      "gpt_rationale_193",
+      "gpt_rationale_42",
+      "gpt_rationale_84",
+      "gpt_rationale_95",
+      "gpt_tinygpt",
+      "gpt_tinygpt_init",
+      "gpt_transformerblock",
+      "gpt_transformerblock_forward",
+      "gpt_transformerblock_init",
+      "masked_lm_rationale_107",
+      "masked_lm_rationale_225",
+      "masked_lm_rationale_54",
+      "masked_lm_rationale_96",
+      "masked_lm_tinymaskedlm",
+      "masked_lm_tinymaskedlm_init",
+      "masked_lm_transformerblock",
+      "masked_lm_transformerblock_forward",
+      "masked_lm_transformerblock_init",
+      "src_common_attention_py"
+    ],
+    "2": [
+      "architecture_thesis",
+      "autoregressive_generation",
+      "causal_masking",
+      "configuration_matters_principle",
+      "execution_phase_6",
+      "feedforward_block",
+      "god_nodes_analysis",
+      "gpt_convergence_observation",
+      "gpt_paradigm",
+      "layer_norm_architecture",
+      "multihead_self_attention",
+      "next_token_prediction",
+      "paradigm_agnostic_transformer",
+      "residual_connection",
+      "scaled_dot_product_attention",
+      "sdpa_reference",
+      "shared_code_benefit",
+      "shared_module_foundation",
+      "src_transformer_gpt",
+      "temperature_sampling",
+      "tinygpt",
+      "transformer_block"
+    ],
+    "3": [
+      "gpt_generate",
+      "gpt_rationale_1",
+      "gpt_rationale_175",
+      "gpt_tinygpt_forward",
+      "masked_lm_generate",
+      "masked_lm_rationale_1",
+      "masked_lm_rationale_207",
+      "masked_lm_tinymaskedlm_forward",
+      "sinusoidal_positional_encoding",
+      "src_common_attention",
+      "src_common_embeddings",
+      "src_diffusion_masked_lm_py",
+      "src_transformer_gpt_py",
+      "token_positional_embedding"
+    ],
+    "4": [
+      "bidirectional_attention",
+      "char_tokenizer",
+      "iterative_unmasking",
+      "mask_token_id_convention",
+      "masked_denoising",
+      "masked_lm_convergence_observation",
+      "masked_lm_paradigm",
+      "src_common_tokenizer",
+      "src_diffusion_masked_lm",
+      "tiny_masked_lm"
+    ],
+    "5": [
+      "embeddings_build_embeddings",
+      "embeddings_rationale_1",
+      "embeddings_rationale_33",
+      "embeddings_rationale_80",
+      "embeddings_rationale_93",
+      "embeddings_tokenpositionalembedding",
+      "embeddings_tokenpositionalembedding_forward",
+      "embeddings_tokenpositionalembedding_init",
+      "src_common_embeddings_py"
+    ],
+    "6": [
+      "attention_reference_tests",
+      "test_suite_coverage",
+      "tokenizer_tests"
+    ],
+    "7": [
+      "users_ashraf_macbookair_repos_projects_build9_ai_projects_08_transformers_vs_diffusion_src_init_py"
+    ],
+    "8": [
+      "users_ashraf_macbookair_repos_projects_build9_ai_projects_08_transformers_vs_diffusion_src_transformer_init_py"
+    ],
+    "9": [
+      "users_ashraf_macbookair_repos_projects_build9_ai_projects_08_transformers_vs_diffusion_src_diffusion_init_py"
+    ],
+    "10": [
+      "users_ashraf_macbookair_repos_projects_build9_ai_projects_08_transformers_vs_diffusion_src_common_init_py"
+    ],
+    "11": [
+      "graph_106_nodes"
+    ],
+    "12": [
+      "graph_134_edges"
+    ],
+    "13": [
+      "graph_hyperedges"
+    ],
+    "14": [
+      "execution_phase_1"
+    ],
+    "15": [
+      "execution_phase_2"
+    ],
+    "16": [
+      "execution_phase_3"
+    ],
+    "17": [
+      "execution_phase_4"
+    ],
+    "18": [
+      "execution_phase_5"
+    ],
+    "19": [
+      "notebooks_01_attention"
+    ],
+    "20": [
+      "notebooks_02_gpt"
+    ],
+    "21": [
+      "notebooks_03_diffusion_lm"
+    ],
+    "22": [
+      "notebooks_04_comparison"
+    ],
+    "23": [
+      "tests_test_suite"
+    ]
+  },
+  "cohesion": {
+    "0": 0.08,
+    "1": 0.11,
+    "2": 0.12,
+    "3": 0.15,
+    "4": 0.2,
+    "5": 0.25,
+    "6": 0.67,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 1.0,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0
+  },
+  "gods": [
+    {
+      "id": "attention_multiheadselfattention",
+      "label": "MultiHeadSelfAttention",
+      "degree": 18
+    },
+    {
+      "id": "tinygpt",
+      "label": "TinyGPT",
+      "degree": 11
+    },
+    {
+      "id": "tiny_masked_lm",
+      "label": "TinyMaskedLM",
+      "degree": 11
+    },
+    {
+      "id": "multihead_self_attention",
+      "label": "MultiHeadSelfAttention",
+      "degree": 10
+    },
+    {
+      "id": "sdpa_reference_scaled_dot_product_attention",
+      "label": "scaled_dot_product_attention()",
+      "degree": 8
+    },
+    {
+      "id": "transformer_block",
+      "label": "TransformerBlock",
+      "degree": 8
+    },
+    {
+      "id": "gpt_transformerblock",
+      "label": "TransformerBlock",
+      "degree": 6
+    },
+    {
+      "id": "masked_lm_transformerblock",
+      "label": "TransformerBlock",
+      "degree": 6
+    },
+    {
+      "id": "sdpa_reference_softmax",
+      "label": "softmax()",
+      "degree": 6
+    },
+    {
+      "id": "gpt_tinygpt",
+      "label": "TinyGPT",
+      "degree": 5
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Shared Multi-Head Attention Thesis",
+      "target": "Masked LM Paradigm (Bidirectional with Iterative Unmasking)",
+      "source_files": [
+        "ARCHITECTURE.md",
+        "COMPLETION_SUMMARY.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "demonstrates",
+      "why": "connects across different repos/directories; bridges separate communities; peripheral node `Masked LM Paradigm (Bidirectional with Iterative Unmasking)` unexpectedly reaches hub `Shared Multi-Head Attention Thesis`"
+    },
+    {
+      "source": "Autoregressive GPT: causal blocks + left-to-right sampling.  TinyGPT implements",
+      "target": "MultiHeadSelfAttention",
+      "source_files": [
+        "/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/src/transformer/gpt.py",
+        "/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/src/common/attention.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities; peripheral node `Autoregressive GPT: causal blocks + left-to-right sampling.  TinyGPT implements` unexpectedly reaches hub `MultiHeadSelfAttention`"
+    },
+    {
+      "source": "Diffusion/masked LM: bidirectional blocks + iterative unmasking.  TinyMaskedLM i",
+      "target": "MultiHeadSelfAttention",
+      "source_files": [
+        "/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/src/diffusion/masked_lm.py",
+        "/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/src/common/attention.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities; peripheral node `Diffusion/masked LM: bidirectional blocks + iterative unmasking.  TinyMaskedLM i` unexpectedly reaches hub `MultiHeadSelfAttention`"
+    },
+    {
+      "source": "Shared Multi-Head Attention Thesis",
+      "target": "GPT Paradigm (Autoregressive with Causal Attention)",
+      "source_files": [
+        "ARCHITECTURE.md",
+        "COMPLETION_SUMMARY.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "demonstrates",
+      "why": "connects across different repos/directories; peripheral node `GPT Paradigm (Autoregressive with Causal Attention)` unexpectedly reaches hub `Shared Multi-Head Attention Thesis`"
+    },
+    {
+      "source": "Execution Phase 6: Architecture Verification",
+      "target": "Shared Multi-Head Attention Thesis",
+      "source_files": [
+        "EXECUTION_LOG.md",
+        "ARCHITECTURE.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "validates",
+      "why": "connects across different repos/directories; peripheral node `Execution Phase 6: Architecture Verification` unexpectedly reaches hub `Shared Multi-Head Attention Thesis`"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `softmax()` connect `Community 0` to `Community 1`, `Community 3`?",
+      "why": "High betweenness centrality (0.182) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `MultiHeadSelfAttention` connect `Community 1` to `Community 3`?",
+      "why": "High betweenness centrality (0.173) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `MultiHeadSelfAttention` connect `Community 2` to `Community 3`, `Community 4`?",
+      "why": "High betweenness centrality (0.151) - this node is a cross-community bridge."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 14 inferred relationships involving `MultiHeadSelfAttention` (e.g. with `TransformerBlock` and `TinyGPT`) actually correct?",
+      "why": "`MultiHeadSelfAttention` has 14 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 4 inferred relationships involving `scaled_dot_product_attention()` (e.g. with `test_attention_output_shape_matches_input()` and `test_attention_weights_are_row_stochastic()`) actually correct?",
+      "why": "`scaled_dot_product_attention()` has 4 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `20-test suite for the Transformers vs Diffusion study project.  The char tokeniz`, `x: (batch, seq, d_model) -> (batch, seq, d_model)`, `token_ids: (batch, seq) -> logits: (batch, seq, vocab_size)` to the rest of the system?",
+      "why": "50 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.08 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/ARCHITECTURE.md
+/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/COMPLETION_SUMMARY.md
+/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/USAGE.md
+/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/NOTEBOOK_SETUP.md
+/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/README.md
+/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/TEST_RESULTS.md
+/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/EXECUTION_LOG.md
+/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/CLAUDE.md
+/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/INTERFACE.md

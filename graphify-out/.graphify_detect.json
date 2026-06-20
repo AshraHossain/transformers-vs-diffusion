@@ -1,0 +1,39 @@
+{
+  "files": {
+    "code": [
+      "/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/tests/test_suite.py",
+      "/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/src/__init__.py",
+      "/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/src/transformer/__init__.py",
+      "/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/src/transformer/gpt.py",
+      "/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/src/diffusion/__init__.py",
+      "/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/src/diffusion/masked_lm.py",
+      "/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/src/common/attention.py",
+      "/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/src/common/sdpa_reference.py",
+      "/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/src/common/__init__.py",
+      "/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/src/common/embeddings.py"
+    ],
+    "document": [
+      "/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/ARCHITECTURE.md",
+      "/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/COMPLETION_SUMMARY.md",
+      "/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/requirements.txt",
+      "/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/USAGE.md",
+      "/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/NOTEBOOK_SETUP.md",
+      "/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/README.md",
+      "/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/TEST_RESULTS.md",
+      "/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/EXECUTION_LOG.md",
+      "/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/CLAUDE.md",
+      "/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/INTERFACE.md"
+    ],
+    "paper": [],
+    "image": [],
+    "video": []
+  },
+  "total_files": 20,
+  "total_words": 11120,
+  "needs_graph": false,
+  "warning": "Corpus is ~11,120 words - fits in a single context window. You may not need a graph.",
+  "skipped_sensitive": [
+    "/Users/ashraf-macbookair/repos/projects/build9-ai-projects/transformers-vs-diffusion/src/common/tokenizer.py"
+  ],
+  "graphifyignore_patterns": 0
+}
